@@ -22,7 +22,7 @@
             <h3 class="text-sm" id="bank">State Bank Of India 0258</h3>
         </div>
 
-        <div class="flex flex-col justify-center items-center mt-16">
+        <div class="flex flex-col justify-center items-center mt-14">
             <div class="date-time flex">
                 <h3 class="" id="date">30 May 2024</h3>
                 <h3>,</h3>
@@ -31,7 +31,7 @@
             <h3>UPI transaction ID: 4112544178952</h3>
         </div>
 
-        <div class="mt-32 flex items-center justify-center gap-5">
+        <div class="mt-24 flex items-center justify-center gap-5">
             <button class="rounded-full text-blue-300 cursor-pointer border-2 p-1.5 px-5 text-sm"> <i class="fa fa-share-alt"></i> Share Screenshot</button>
             <button class="rounded-full bg-blue-300 cursor-pointer text-black px-6 border-2 p-1.5 text-sm">Done</button>
         </div>
@@ -41,10 +41,15 @@
         </div>
     </div>
     <div class="text-black flex flex-col items-center justify-center mt-24" id="forminput">
+        <label class="text-white">Enter Amount</label>
         <input type="number" placeholder="Amount" id="givenamount"><br>
+        <label class="text-white">Enter Recepient Name</label>
         <input type="text" placeholder="person Name" id="givenname"><br>
+        <label class="text-white">Enter Recepient Bank Name</label>
         <input type="text" placeholder="Bank Name" id="givenbank"><br>
+        <label class="text-white">Enter transaction date</label>
         <input type="date" placeholder="Date" id="givendate"><br>
+        <label class="text-white">Enter transaction time</label>
         <input type="time" placeholder="Time" id="giventime"><br>
         <button class="bg-white p-2 rounded-full px-6" onclick="gpay()">Submit</button>
     </div>
