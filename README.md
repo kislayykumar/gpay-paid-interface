@@ -10,7 +10,7 @@ This project simulates a Google Pay successful payment interface for a mobile-ba
 
 ## Demo
 
-![Google Pay Success](https://gpayinterface.vercel.app/)
+<a href="https://gpayinterface.vercel.app/"> Website</a>
 
 ## Features
 
@@ -39,4 +39,4 @@ This project simulates a Google Pay successful payment interface for a mobile-ba
 - **CSS**: For styling, including Tailwind CSS for utility-first styling.
 - **JavaScript**: For form handling and dynamic updates.
 
- if you find a bug or have a question. Enjoy!
+ if you find a suggestion then mail me at <a href="kislay9351@gmail.com">kislay9351@gmail.com</a>
